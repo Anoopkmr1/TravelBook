@@ -22,7 +22,10 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestWhenInUseAuthorization()
+
+
         locationManager.startUpdatingLocation()
+        // Anoop is my name ...
         
         
     }
